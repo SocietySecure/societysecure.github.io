@@ -410,6 +410,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: rgba(255, 255, 255, 0.8);
+  min-height: 70px;
+}
+
+@media screen and (min-width: 768px) {
+    #hero h1  {
+        min-height: 115px;
+    }
 }
 
 #hero h1 span {
@@ -434,6 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   color: #fff;
   background: #1acc8d;
+  width:180px;
 }
 
 #hero .btn-get-started:hover {
