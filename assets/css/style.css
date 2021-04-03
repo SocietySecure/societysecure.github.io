@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #1acc8d;
+  color: White;
   text-decoration: none;
 }
 
@@ -1663,7 +1663,7 @@ section {
 #footer .credits {
   padding-top: 10px;
   text-align: center;
-  font-size: 8px;
+  font-size: 10px;
   color: #fff;
 }
 
